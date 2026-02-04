@@ -1,0 +1,84 @@
+/* RESET */
+* body {
+    background-color: #000000;
+    color: #ff0000;
+}
+header {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-style: inset;
+    border-radius: 5px;
+    background-color: rgb(81, 79, 95);
+}
+nav {
+    text-align: center;
+    
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-style: inset;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ff0000;
+}
+nav a:hover {
+    background-color: yellow;
+    transition: 1000ms;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+main {
+padding: 10px;
+margin: 10px;
+border: 2px solid;
+border-style: inset;
+border-radius: 10px;
+background-color: #3d3b35;    
+}
+section {
+    border: 2px solid;
+    border-style: outset;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+section h2 {
+    border:  1px solid;
+    border-style: outset;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+article {
+    border: 1px solid;
+    border-style: outset;
+    background-color: #F3EFE6;
+}
+footer {
+    border: 2px solid;
+    border-style: dashed;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #a09e9e;
+    font-size: 0.9rem;
+}
+.caixa {
+    background-color: #8f8484;
+    width: 300px;
+    height: 150px;
+    border: #000000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: content-box;
+}
+/*No content-box, o elemento acaba ficando mais largo do que o tamanho que eu configurei, poque a largura não soma o padding nem a borda. Já no border \*
