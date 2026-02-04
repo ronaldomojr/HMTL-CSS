@@ -1,0 +1,21 @@
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ambientes
+node_modules/
+venv/
+env/
+
+# Arquivos temporários
+*.tmp
+*.log
+*.bak
