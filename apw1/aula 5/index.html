@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 5</title>
+  </head>
+  <body>
+    <header>
+      <h1>Aprendendo Hyperlink</h1>
+    </header>
+
+    <main>
+      <h2>Hyperlinks Externos</h2>
+      <p>
+        Você pode acessar a página
+        <a href="https://www.devmedia.com.br/guia/html/38051"
+          >Guia completo do HTML</a
+        >
+      </p>
+
+      <p>
+        Você também pode acessar o
+        <a
+          href="https://www.youtube.com/@rafaellaballerini"
+          target="_blank"
+          rel="Externos"
+          >canal do Youtube</a
+        >
+      </p>
+
+      <p>
+        Essa é a primeira página do site se você quiser ir até a próxima página
+        <a href="indexpag2.html" target="_top" rel="next">click aqui...</a>
+      </p>
+
+      <h2>Criando links para Dowloads</h2>
+
+      <ul>
+        <li>
+          Fazer
+          <a href="livro/html5-web-1.pdf" target="_blank" type="application/pdf"
+            >Dowload</a
+          >
+          do Livro em PDF
+        </li>
+
+        <li>
+          Fazer
+          <a href="livro/html5-web-1.rar" type="application/ZIP">Dowload</a> do
+          Livro em ZIP
+        </li>
+      </ul>
+
+      <h2>Vamos aprender a introduzir audio</h2>
+      <audio preload="metadata" autoplay controls loop>
+        <source src="midia/kazoom.mp3" type="audio/mp3">
+        <source src="midia/kazoom.mp3" type="audio/ogg">
+        <source src="midia/kazoom.mp3" type="audio/wav">
+
+
+      </audio>
+
+      <h2>Vamos adicionar video local</h2>
+      <video width="500" height="400" preload="metadata" autoplay controls loop muteo>
+        <source src="midia/Pexels Videos 1238406.mp4" type="video/mp4">
+        <source src="midia/Pexels Videos 1238406.ogv" type="video/ogv">
+        <source src="midia/Pexels Videos 1238406.webm" type="video/webm">
+
+      </video>
+      <h2>Vamos aprender a adicionar cideos do Youtube</h2>
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1oOHddLarQc?si=oRy59KVyeoLQ4VEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <h2>Imagens dinâmicas</h2>
+      <p>Tente abir esse site em várias dispositivos com tamanhos diferentes ou aumente ou diminua  seu navegador</p>
+
+      <picture>
+        
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="Image/png">
+        
+        
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        
+        
+        
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+
+
+
+      </picture>
+      
+
+
+
+
+
+
+      
+    </main>
+  </body>
+</html>

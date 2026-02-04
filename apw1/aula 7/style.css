@@ -1,0 +1,116 @@
+body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: blanchedalmond;
+            color: blueviolet;
+        }
+        header {
+            background-color: purple;
+         color: white; text-align: center;
+        padding: 16px;}
+        nav {
+            background-color: chartreuse;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 15px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0;
+
+        }
+
+        nav a {
+            display: block;
+            padding: 16px;
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: green;
+            transition: 1000ms;
+
+        }
+        
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 16px;
+        }
+        section {
+            flex: 2;
+            padding: 16px;
+        
+        }
+        
+        article {
+            background-color: white;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 10px 20px 5px 10px;
+        }
+        
+        aside {
+            flex: 1;
+            background-color: gainsboro;
+            padding: 16px;
+            margin-left: 16px;
+            border-radius: 10px;
+        }
+
+        aside h3 {
+            margin-top: 0;
+
+        }
+        footer {
+            background-color: darkgray;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            margin: 16px;
+
+        }
+
+        img {
+            border-radius: 20px;
+            max-width: 100%;
+
+        }
+
+        #destaque {
+            background-color: black;
+            border-left: 10px solid;
+            color: white;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .botao:hover {
+            background-color: gray;
+            transition: 1000ms;
+        
+        }
+
+        .enrolacao {
+            background-color: grey;
+            color: white;
+            margin-top: 40px;
+            
+        }
+
+        .qualquer {
+            text-align: justify;
+        }

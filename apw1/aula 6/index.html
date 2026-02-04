@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label> Nome Completo:
+            <input type="text" name="nome"
+            autofocus required minlength="2" maxlength="20">
+        
+        
+        
+        
+        </label>
+        <br> <br>
+        <label>Email:
+            <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <br><br>
+        <label> Senha:
+            <input type="password" name="senha" required minlength="6">
+        </label>
+        <br><br>
+        <label> Data de Nascimento:
+            <input type="date" name="data_nasc">
+        </label>
+        <br><br>
+        <label> Telefone:
+            <input type="tel" name="telefone" pattern="[0-9] [10,11]">
+            <!--pattern exige entre 10 e 11 digítos numéricos-->
+
+        </label>
+        <br><br>
+        <label>Site pessoal:
+            <input type="url" name="site">
+
+        </label>
+        <br><br>
+        <label>Faixa Salarial:
+            <input type="range" name="salario" min="1000" max="10000" step="500" oninput="atualizarSalario()">
+            
+        </label>
+        <br><br>
+        <label>Currículo (PDF):
+            <input type="file" name="curriculo" accept=".PDF">
+        </label>
+        <br><br>
+        <fieldset> <!--Agrupa botoês do gênero-->
+            <legend>Gênero</legend>
+            <label><input type="radio" name="genero" value="masculino">Masculino
+            <input type="radio" name="genero" value="feminino">Feminino
+            </label>
+        </fieldset>
+        <br><br>
+        <label> Preferências:
+            <input type="checkbox" name="noticias" checked> Receber noticias
+            <input type="checkbox" name="email"> Receber email
+            <!--Checked serve para vir marcado a caixinha-->
+        </label>
+        <br><br>
+        <label>Comentários:
+            <textarea name="comentarios" cols="50" rows="10"></textarea>
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+         <script>
+        function atualizarSalario() (
+        document .getElementById("valorSalario"). innerText = document .getElementById(salario).value;
+
+    )
+
+
+    document .addEventListener("DOMContentLoaded", function() (
+        {atualizarSalario();
+
+
+
+        });
+
+
+
+    </script>
+    </form>
+    
+</body>
+</html>
